@@ -138,3 +138,12 @@ Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero
 ¡Gracias por leer!
 
 ¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora revisa mi GitHub. 
+
+
+------
+
+<a href="http://vivianamarquez.com/" target="_blank">*Viviana Márquez*</a>
+Científica de Datos en Miami, Fl. 
+MSc. Ciencia de Datos - Universidad de San Francisco, California
+BSc. Matemáticas - Konrad Lorenz Fundación Universitaria 
+
