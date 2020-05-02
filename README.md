@@ -31,7 +31,7 @@ La mayoría de esos mensajes son de texto. Nótese que tuve que hacer una catego
 ## 🤣 Risas
 
 * La risa más popular es `Jajajaja` con 128 repeticiones. 
-* La más corta es `Jajj` con sólo cuatro caracteres. 
+* La más corta es `Jajj` con tan sólo cuatro caracteres. 
 * La más larga es… 
 ```
 JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
@@ -55,7 +55,7 @@ Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la ri
 +---------+-----------------+
 ```
 
-En infinitas ocasiones nos hemos dicho la una a la otra: "¡Pero es que tú siempre me ignoras!". Pues el debate finalmente hoy se resuelve el día de hoy y el veredicto es a favor de Teresa, con más de 2.000 mensajes que yo. 
+En infinitas ocasiones nos hemos dicho la una a la otra: "¡Pero es que tú siempre me ignoras!". Pues el debate finalmente se resuelve el día de hoy y el veredicto es a favor de Teresa, con más de 2.000 mensajes que yo. 
 
 ```
 +--------------+---------+-----------------+
@@ -78,4 +78,25 @@ Pero no me iba a dar por vencida así de fácil en este debate. Si examinámos l
 
 <p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot3.html" height="525" width="100%"></iframe></p>
 
-Ningún análisis estaría completo sin considerar el tiempo como una dimensión. 
+Ningún análisis estaría completo sin considerar el tiempo como una dimensión. Pero lo más interesante está si miramos el número de mensajes por día de la semana. ¿Cómo así que el lunes es el día que más hablamos? ¡Ni que fueramos la tarea del colegio!  
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot3.html" height="525" width="100%"></iframe></p>
+
+
+## 🐸 Y lo que todos se preguntan... ¿de qué hablamos?
+
+Llegó la hora... con el siguiente código sabremos sobre quiénes hablamos tanto, por nombres propios.
+
+```python
+for c in Counter(text_tere_clean).most_common():
+    if list(pp.tag(c[0])[0])==['GivenName'] and not d.check(c[0]) and len(set(c[0])) != 2:
+        if not d2.check(c[0]):
+            print(c)
+            
+for c in Counter(text_vivi_clean).most_common():
+    if list(pp.tag(c[0])[0])==['GivenName'] and not d.check(c[0]) and len(set(c[0])) != 2:
+        if not d2.check(c[0]):
+            print(c)
+```
+
+¡Já! Ya creyeron. 
