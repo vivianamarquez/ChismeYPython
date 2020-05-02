@@ -124,3 +124,7 @@ La red neuronal la entrené usando nuestra conversación de WhatsApp. Con poco e
 
 * Después de varias horas de entrenamiento:
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png'>
+
+Y este es el resultado final:
+
+
