@@ -9,6 +9,7 @@ This is a repo I created a quick analysis of our behavior and a neural network u
 🎨 I also recommend checking out the [Spanish](http://vivianamarquez.com/ChismeYPython/) version because it has interactive plots!
 
 
+<br>
 
 
 # Chisme y Python
