@@ -112,18 +112,18 @@ for c in Counter(text_vivi_clean).most_common():
 
 ## 🧠 Red Neuronal Artificial 
 
-Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">redes neuronales artificiales</a> que imitan la manera en que nosotras hablamos. Esta es quizás la parte que más me emociona de este blog, porque apenas unos años atrás hubiera pensado que era un capítulo salido de Black Mirrors. 
+Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">redes neuronales artificiales</a> que imitan la manera en que nosotras hablamos. Esta es quizás la parte que más me emociona de este blog, porque apenas unos años atrás hubiera pensado que esto era un capítulo salido de Black Mirrors. 
 
-La red neuronal la entrené usando nuestra conversación de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
+La red neuronal la entrené usando nuestras conversaciones de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
 
 * Con poco entrenamiento:
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:100px">
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:50px">
 
 * Con más entrenamiento:
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:100px">
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:50px">
 
 * Después de varias horas de entrenamiento:
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png'>
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png' style="height:100px">
 
 Y este es el resultado final:
 
@@ -131,6 +131,10 @@ Y este es el resultado final:
 
 Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra. 
 
-
+<br>
+<br>
 ------
+
+¡Gracias por leer!
+
 ¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora revisa mi GitHub. 
