@@ -117,10 +117,10 @@ Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_n
 La red neuronal la entrené usando nuestras conversaciones de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
 
 * Con poco entrenamiento:<br>
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:50px">
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:50px;width:500px">
 
 * Con más entrenamiento:<br>
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:50px">
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:50px;width:500px">
 
 * Después de varias horas de entrenamiento:<br>
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png' style="height:100px">
@@ -137,7 +137,7 @@ Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero
 
 ¡Gracias por leer!
 
-¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora revisa mi GitHub. 
+¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora puedes ver todo el código en GitHub. 
 
 
 ------
