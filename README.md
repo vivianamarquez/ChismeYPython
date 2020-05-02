@@ -1,6 +1,7 @@
-# Gossip and Python: WhatsApp convos with my best friend edition!
+# Gossip and Python
+### WhatsApp convos with my best friend edition!
 
-<img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" width="200">
+<img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" width="500" align='center'>
 
 Hi! 
 
