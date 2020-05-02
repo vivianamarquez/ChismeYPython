@@ -117,14 +117,20 @@ Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_n
 La red neuronal la entrené usando nuestra conversación de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
 
 * Con poco entrenamiento:
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png'>
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:100px">
 
 * Con más entrenamiento:
-&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png'>
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:100px">
 
 * Después de varias horas de entrenamiento:
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png'>
 
 Y este es el resultado final:
 
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif'></center>
 
+Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar "piloma" como palabra. 
+
+
+------
+¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora revisa mi GitHub. 
