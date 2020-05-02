@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga | Data Science</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data Science" />
+<meta property="og:description" content="Data Science" />
+<link rel="canonical" href="http://vivianamarquez.com/ChismeYPython/" />
+<meta property="og:url" content="http://vivianamarquez.com/ChismeYPython/" />
+<meta property="og:site_name" content="ChismeYPython" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga","url":"http://vivianamarquez.com/ChismeYPython/","name":"ChismeYPython","description":"Data Science","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/ChismeYPython/assets/css/style.css?v=420d144943765218fc50ad83f0c93f7af30fb943">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://vivianamarquez.com/ChismeYPython/">ChismeYPython</a></h1>
+      
+
+      <h1 id="chisme-y-python-las-conversaciones-por-whatsapp-con-mi-mejoramiga">Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga</h1>
+
+<p><em>Publicado el 27 de abril de 2020</em></p>
+
+<center><img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" style="width:700px" /></center>
+
+<p>Hola mis cielas, el día de hoy les vengo a presentar a Teresa. Ella es mi mejor amiga desde que teníamos 12 años. Cuando éramos pequeñas, nuestras mamás tenían que desconectar el cable del teléfono fijo porque nos quedábamos hablando hasta las dos de la mañana. Hoy en día esa adicción se pasó al mundo del WhatsApp y como la buena ñ̶o̶ñ̶a̶ científica de datos que soy, aquí les traigo un análisis de nuestras conversaciones.</p>
+
+<h2 id="-los-datos">🤓 Los datos</h2>
+
+<center><img src="http://vivianamarquez.com/ChismeYPython/img/df.png" style="width:700px" /></center>
+
+<p>Son <strong>15.985</strong> mensajes desde el 20 de febrero del 2019 (cuando cambié de celular) hasta el 27 de abril del 2020 (hoy). </p>
+
+<p>De esos 432 días, hablamos 274 días, es decir 63% del tiempo; lo cual nos da un promedio de 58 mensajes por día.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-----------------+---------+
+| Tipo de Mensaje | Cuántos |
++-----------------+---------+
+| Texto           |  12.287 |
+| Audio           |   1.516 |
+| RISA            |     989 |
+| Foto/Video      |     809 |
+| Sticker/GIF     |     377 |
++-----------------+---------+
+</code></pre></div></div>
+
+<p>La mayoría de esos mensajes son de texto. Nótese que tuve que hacer una categoría para los mensajes que sólo contuvieran risas (ósea que ni siquiera estoy incluyendo los mensajes que tienen texto y risas), porque nos reímos y nos reímos DEMASIADO.</p>
+
+<h2 id="-risas">🤣 Risas</h2>
+
+<ul>
+  <li>La risa más popular es <code class="language-plaintext highlighter-rouge">Jajajaja</code> con 128 repeticiones. </li>
+  <li>La más corta es <code class="language-plaintext highlighter-rouge">Jajj</code> con tan sólo cuatro caracteres. </li>
+  <li>La más larga es…
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
+</code></pre></div>    </div>
+    <p>  ¡Esos son 1.950 caracteres!</p>
+  </li>
+</ul>
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot1a.html" height="525" width="100%"></iframe></p>
+
+<p>Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la risa de Tere es de 18 caracteres, mientras que la mía es más corta con 12 caracteres en promedio; y como vemos en la visualización de abajo, la mayoría del tiempo nos reímos como las personas normales (menos de 20 caracteres) pero de vez en cuando nos reimos más de la cuenta, especialmente Tere.</p>
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot2.html" height="525" width="100%"></iframe></p>
+
+<h2 id="-quién-ignora-a-quién">👀 ¿Quién ignora a quién?</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+---------+-----------------+
+|  Quién  | No. de Mensajes |
++---------+-----------------+
+| Teresa  |           9.025 |
+| Viviana |           6.960 |
++---------+-----------------+
+</code></pre></div></div>
+
+<p>En infinitas ocasiones nos hemos dicho la una a la otra: “¡Pero es que tú siempre me ignoras!”. Pues el debate finalmente se resuelve el día de hoy y el veredicto es a favor de Teresa, con más de 2.000 mensajes que yo.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+--------------+---------+-----------------+
+|     Tipo     |  Quién  | No. de Mensajes |
++--------------+---------+-----------------+
+| Texto        | Teresa  |           7.132 |
+| Texto        | Viviana |           5.155 |
+| Audio        | Teresa  |             755 |
+| Audio        | Viviana |             741 |
+| Imagen/Video | Teresa  |             375 |
+| Imagen/Video | Viviana |             434 |
+| Sticker/GIF  | Teresa  |             172 |
+| Sticker/GIF  | Viviana |             205 |
++--------------+---------+-----------------+
+</code></pre></div></div>
+
+<p>Pero no me iba a dar por vencida así de fácil en este debate. Si examinámos los mensajes por categoria, nos damos cuenta que hay casi la misma cantidad de mensajes de audio, los cuales son nuestro principal medio de comunicación. Además, con la cantidad de imagenes y stickeres que envio queda claro que yo soy la reina de los memes.</p>
+
+<h2 id="-cuándo-hablamos">📅 ¿Cuándo hablamos?</h2>
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot3.html" height="525" width="100%"></iframe></p>
+
+<p>Ningún análisis estaría completo sin considerar el tiempo como una dimensión. Pero lo más interesante está si miramos el número de mensajes por día de la semana. ¿Cómo así que el lunes es el día que más hablamos? ¡Ni que fueramos la tarea del colegio!</p>
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot5.html" height="525" width="100%"></iframe></p>
+
+<h2 id="-y-lo-que-todos-se-preguntan-de-qué-hablamos">🐸 Y lo que todos se preguntan… ¿de qué hablamos?</h2>
+
+<p>Llegó la hora… con el siguiente código sabremos sobre quiénes hablamos tanto, por nombres propios.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">text_tere_clean</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+    <span class="k">if</span> <span class="nb">list</span><span class="p">(</span><span class="n">pp</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">])[</span><span class="mi">0</span><span class="p">])</span><span class="o">==</span><span class="p">[</span><span class="s">'GivenName'</span><span class="p">]</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">d</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">d2</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+            
+<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">text_vivi_clean</span><span class="p">)</span><span class="o">.</span><span class="n">most_common</span><span class="p">():</span>
+    <span class="k">if</span> <span class="nb">list</span><span class="p">(</span><span class="n">pp</span><span class="o">.</span><span class="n">tag</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">])[</span><span class="mi">0</span><span class="p">])</span><span class="o">==</span><span class="p">[</span><span class="s">'GivenName'</span><span class="p">]</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">d</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">d2</span><span class="o">.</span><span class="n">check</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+            <span class="k">print</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>¡Já! Ya creyeron. Esos nombres no se pueden revelar sin amenazar con desintegrar la mísmisima fábrica del tiempo-espacio. Mejor veamos cuáles son las palabras y los emojis más usados.</p>
+
+<center><img src="http://vivianamarquez.com/ChismeYPython/img/emojisSP.png" style="width:700px" /></center>
+
+<iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&amp;:embed=true" width="1030px" height="799px" align="middle"></iframe>
+
+<h2 id="-red-neuronal-artificial">🧠 Red Neuronal Artificial</h2>
+
+<p>Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">redes neuronales artificiales</a> que imitan la manera en que nosotras hablamos. Esta es quizás la parte que más me emociona de este blog, porque apenas unos años atrás hubiera pensado que esto era un capítulo salido de Black Mirrors.</p>
+
+<p>La red neuronal la entrené usando nuestras conversaciones de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce “basura”, es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:</p>
+
+<ul>
+  <li>
+    <p>Con poco entrenamiento:<br />
+  <img src="http://vivianamarquez.com/ChismeYPython/img/NN1.png" style="height:50px;width:500px" /></p>
+  </li>
+  <li>
+    <p>Con más entrenamiento:<br />
+  <img src="http://vivianamarquez.com/ChismeYPython/img/NN2.png" style="height:50px;width:500px" /></p>
+  </li>
+  <li>
+    <p>Después de varias horas de entrenamiento:<br />
+  <img src="http://vivianamarquez.com/ChismeYPython/img/NN3.png" style="height:100px" /></p>
+  </li>
+</ul>
+
+<p><em>Suenan los tambores…</em> Este es el resultado final:</p>
+
+<center><img src="http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif" style="height:700px" /></center>
+
+<p>Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar <em>piloma</em> como palabra, y espero que ustedes también, mis cielas. ¡Gracias por leerme! 😘</p>
+
+<p><br />
+<br />
+——</p>
+
+<p>¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora puedes ver todo el código en GitHub.</p>
+
+<hr />
+
+<p><a href="http://vivianamarquez.com/" target="_blank"><em>Viviana Márquez</em></a><br />
+Científica de Datos en Miami, Fl. <br />
+MSc. Ciencia de Datos - Universidad de San Francisco, California <br />
+BSc. Matemáticas - Konrad Lorenz Fundación Universitaria</p>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
