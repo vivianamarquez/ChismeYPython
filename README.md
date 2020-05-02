@@ -80,7 +80,7 @@ Pero no me iba a dar por vencida así de fácil en este debate. Si examinámos l
 
 Ningún análisis estaría completo sin considerar el tiempo como una dimensión. Pero lo más interesante está si miramos el número de mensajes por día de la semana. ¿Cómo así que el lunes es el día que más hablamos? ¡Ni que fueramos la tarea del colegio!  
 
-<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot5.html" height="1000" width="100%"></iframe></p>
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot5.html" height="525" width="100%"></iframe></p>
 
 
 ## 🐸 Y lo que todos se preguntan... ¿de qué hablamos?
