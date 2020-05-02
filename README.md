@@ -55,4 +55,27 @@ Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la ri
 +---------+-----------------+
 ```
 
-En infinitas ocasiones nos hemos dicho la una a la otra: "¡Pero es que tú siempre me ignoras!". Pues el debate finalmente hoy se resuelve el día de hoy y el veredicto 
+En infinitas ocasiones nos hemos dicho la una a la otra: "¡Pero es que tú siempre me ignoras!". Pues el debate finalmente hoy se resuelve el día de hoy y el veredicto es a favor de Teresa, con más de 2.000 mensajes que yo. 
+
+```
++--------------+---------+-----------------+
+|     Tipo     |  Quién  | No. de Mensajes |
++--------------+---------+-----------------+
+| Texto        | Teresa  |           7.132 |
+| Texto        | Viviana |           5.155 |
+| Audio        | Teresa  |             755 |
+| Audio        | Viviana |             741 |
+| Imagen/Video | Teresa  |             375 |
+| Imagen/Video | Viviana |             434 |
+| Sticker/GIF  | Teresa  |             172 |
+| Sticker/GIF  | Viviana |             205 |
++--------------+---------+-----------------+
+```
+
+Pero no me iba a dar por vencida así de fácil en este debate. Si examinámos los mensajes por categoria, nos damos cuenta que hay casi la misma cantidad de mensajes de audio, los cuales son nuestro principal medio de comunicación. Además, con la cantidad de imagenes y stickeres que envio queda claro que yo soy la reina de los memes.
+
+## 📅 ¿Cuándo hablamos? 
+
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot3.html" height="525" width="100%"></iframe></p>
+
+Ningún análisis estaría completo sin considerar el tiempo como una dimensión. 
