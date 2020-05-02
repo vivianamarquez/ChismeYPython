@@ -1,6 +1,6 @@
 # Chisme y Python: Las conversaciones por WhatsApp con mi mejor amiga
 
-**Publicado el 27 de abril de 2020**
+*Publicado el 27 de abril de 2020*
 
 <center><img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" style="height:500px"></center>
 
