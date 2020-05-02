@@ -2,13 +2,13 @@
 
 *Publicado el 27 de abril de 2020*
 
-<center><img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" style="width:800px"></center>
+<center><img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" style="width:700px"></center>
 
-Hola mis cielas, el día de hoy les vengo a presentar a Teresa. Ella es mi mejor amiga desde que teníamos 12 años. Cuando éramos pequeñas, nuestras mamás tenían que desconectar el cable del teléfono fijo porque nos quedábamos hablando hasta las dos de la mañana. Hoy en día esa adicción se pasó al mundo del WhatsApp y como la buena ñ̶o̶ñ̶a̶  científica de datos que soy, aquí les traigo un análisis de nuestras conversaciones.
+Hola mis cielas, el día de hoy les vengo a presentar a Teresa. Ella es mi mejor amiga desde que teníamos 12 años. Cuando éramos pequeñas, nuestras mamás tenían que desconectar el cable del teléfono fijo porque nos quedábamos hablando hasta las dos de la mañana. Hoy en día esa adicción se pasó al mundo del WhatsApp y como la buena ñ̶o̶ñ̶a̶ científica de datos que soy, aquí les traigo un análisis de nuestras conversaciones.
 
 ## 🤓 Los datos
 
-<center><img src='http://vivianamarquez.com/ChismeYPython/img/df.png' style="width:800px"></center>
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/df.png' style="width:700px"></center>
 
 Son **15.985** mensajes desde el 20 de febrero del 2019 (cuando cambié de celular) hasta el 27 de abril del 2020 (hoy). 
 
