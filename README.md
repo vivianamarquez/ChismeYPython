@@ -1,8 +1,6 @@
 # Gossip and Python
 ### WhatsApp convos with my best friend edition!
 
-<img src="http://vivianamarquez.com/ChismeYPython/img/PythonYChisme.JPG" width="500" align='center'>
-
 Hi! 
 
 This is a repo where I used my WhatsApp history with my best friend to create a quick analysis of our behavior and a neural network that immitates how we talk. In the Jupyter Notebooks you will find some pandas, plotly, tensorflow. 🐍📊🐼🧠
