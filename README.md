@@ -99,4 +99,6 @@ for c in Counter(text_vivi_clean).most_common():
             print(c)
 ```
 
-¡Já! Ya creyeron. 
+¡Já! Ya creyeron. Esos nombres no se pueden revelar sin amenazar con desintegrar la mísmisima fábrica del tiempo-espacio. Mejor veamos cuáles son las palabras y los emojis más usados. 
+
+<iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&:embed=true" width="1380" height="805" align="middle"></iframe>
