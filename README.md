@@ -116,16 +116,16 @@ Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_n
 
 La red neuronal la entrené usando nuestras conversaciones de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
 
-* Con poco entrenamiento:
+* Con poco entrenamiento:<br>
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png' style="height:50px">
 
-* Con más entrenamiento:
+* Con más entrenamiento:<br>
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png' style="height:50px">
 
-* Después de varias horas de entrenamiento:
+* Después de varias horas de entrenamiento:<br>
 &ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png' style="height:100px">
 
-Y este es el resultado final:
+*Suenan los tambores...* Este es el resultado final:
 
 <center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif' style='height:700px'></center>
 
