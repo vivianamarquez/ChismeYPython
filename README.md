@@ -7,7 +7,7 @@ Hi!
 
 This is a repo where I used my WhatsApp history with my best friend to a quick analysis of our behavior and a neural network that immitates how we talk. In the Jupyter Notebooks you will find pandas, plotly, tensorflow. 
 
-Read my blog about it in [https://medium.com/@vivianamarquez/gossip-and-python-whatsapp-convos-with-my-best-friend-edition-665eac7855fa](Medium). I also recommend checking out the [http://vivianamarquez.com/ChismeYPython/](Spanish) version because it has interactive plots!
+Read my blog about it in [Medium](https://medium.com/@vivianamarquez/gossip-and-python-whatsapp-convos-with-my-best-friend-edition-665eac7855fa). I also recommend checking out the [Spanish](http://vivianamarquez.com/ChismeYPython/) version because it has interactive plots!
 
 
 
