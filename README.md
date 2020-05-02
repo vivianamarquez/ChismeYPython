@@ -142,8 +142,8 @@ Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero
 
 ------
 
-<a href="http://vivianamarquez.com/" target="_blank">*Viviana Márquez*</a>
-Científica de Datos en Miami, Fl. 
-MSc. Ciencia de Datos - Universidad de San Francisco, California
+<a href="http://vivianamarquez.com/" target="_blank">*Viviana Márquez*</a><br>
+Científica de Datos en Miami, Fl. <br>
+MSc. Ciencia de Datos - Universidad de San Francisco, California <br>
 BSc. Matemáticas - Konrad Lorenz Fundación Universitaria 
 
