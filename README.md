@@ -103,6 +103,6 @@ for c in Counter(text_vivi_clean).most_common():
 
 <center><img src='http://vivianamarquez.com/ChismeYPython/img/emojisSP.png' style="width:700px"></center>
 
-<iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="1000px" align="middle"></iframe>
+<iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&:embed=true" width="102%" height="700px" align="middle"></iframe>
 
 
