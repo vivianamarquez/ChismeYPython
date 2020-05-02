@@ -6,7 +6,7 @@ Hola mis cielas, el día de hoy les vengo a presentar a Teresa. Ella es mi mejor
 
 ## 🤓 Los datos
 
-<img src='http://vivianamarquez.com/ChismeYPython/img/df.png'>
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/df.png' style="height:200px"></center>
 
 Son **15.985** mensajes desde el 20 de febrero del 2019 (cuando cambié de celular) hasta el 27 de abril del 2020 (hoy). 
 
@@ -36,4 +36,4 @@ JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 ```
 &ensp; ¡Esos son 1.950 caracteres!
 
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot1.html" height="525" width="100%"></iframe>
+<center><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot1.html" height="525" width="100%"></iframe></center>
