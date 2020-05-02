@@ -6,3 +6,22 @@ Hola mis cielas, el día de hoy les vengo a presentar a Teresa. Ella es mi mejor
 
 ## 🤓 Los datos
 
+<img src='/img/df.png'>
+
+Son **15.985** mensajes desde el 20 de febrero del 2019 (cuando cambié de celular) hasta el 27 de abril del 2020 (hoy). 
+
+De esos 432 días, hablamos 274 días, es decir 63% del tiempo; lo cual nos da un promedio de 58 mensajes por día.
+
+```
++-----------------+---------+
+| Tipo de Mensaje | Cuántos |
++-----------------+---------+
+| Texto           |  12.287 |
+| Audio           |   1.516 |
+| RISA            |     989 |
+| Foto/Video      |     809 |
+| Sticker/GIF     |     377 |
++-----------------+---------+
+```
+
+La mayoría de esos mensajes son de texto. Nótese que tuve que hacer una categoría para los mensajes que sólo contuvieran risas (ósea que ni siquiera estoy incluyendo los mensajes que tienen texto y risas), porque nos reímos y nos reímos DEMASIADO.
