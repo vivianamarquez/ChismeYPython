@@ -129,7 +129,7 @@ Y este es el resultado final:
 
 <center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif' style='height:700px'></center>
 
-Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra. 
+Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra, y espero que ustedes también, mis cielas. 
 
 <br>
 <br>
