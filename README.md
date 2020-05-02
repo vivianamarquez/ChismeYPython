@@ -112,4 +112,15 @@ for c in Counter(text_vivi_clean).most_common():
 
 ## 🧠 Red Neuronal Artificial 
 
-Para hacer este blog 
+Para completar este blog, creé dos <a href="https://es.wikipedia.org/wiki/Red_neuronal_artificial" target="_blank">redes neuronales artificiales</a> que imitan la manera en que nosotras hablamos. Esta es quizás la parte que más me emociona de este blog, porque apenas unos años atrás hubiera pensado que era un capítulo salido de Black Mirrors. 
+
+La red neuronal la entrené usando nuestra conversación de WhatsApp. Con poco entrenamiento, la red neuronal simplemente produce "basura", es decir un montón de caracteres sin sentido. Así fue el progreso de la red neruonal:
+
+* Con poco entrenamiento:
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN1.png'>
+
+* Con más entrenamiento:
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN2.png'>
+
+* Después de varias horas de entrenamiento:
+&ensp; <img src='http://vivianamarquez.com/ChismeYPython/img/NN3.png'>
