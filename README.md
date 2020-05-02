@@ -101,6 +101,8 @@ for c in Counter(text_vivi_clean).most_common():
 
 ¡Já! Ya creyeron. Esos nombres no se pueden revelar sin amenazar con desintegrar la mísmisima fábrica del tiempo-espacio. Mejor veamos cuáles son las palabras y los emojis más usados. 
 
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/emojisSP.png' style="width:700px"></center>
+
 <iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&:embed=true" width="100%" align="middle"></iframe>
 
-<center><img src='http://vivianamarquez.com/ChismeYPython/img/emojisSP.png' style="width:700px"></center>
+
