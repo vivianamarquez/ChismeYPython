@@ -38,7 +38,7 @@ JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 ```
 &ensp; ¡Esos son 1.950 caracteres!
 
-<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot1.html" height="525" width="100%"></iframe></p>
+<p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot1a.html" height="525" width="100%"></iframe></p>
 
 Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la risa de Tere es de 18 caracteres, mientras que la mía es más corta con 12 caracteres en promedio; y como vemos en la visualización de abajo, la mayoría del tiempo nos reímos como las personas normales (menos de 20 caracteres) pero de vez en cuando nos reimos más de la cuenta, especialmente Tere.
 
@@ -55,3 +55,4 @@ Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la ri
 +---------+-----------------+
 ```
 
+En infinitas ocasiones nos hemos dicho la una a la otra: "¡Pero es que tú siempre me ignoras!". Pues el debate finalmente hoy se resuelve el día de hoy y el veredicto 
