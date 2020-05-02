@@ -43,3 +43,15 @@ JAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJAJA
 Naturalmente, la siguiente pregunta es ¿quién se ríe más? En promedio, la risa de Tere es de 18 caracteres, mientras que la mía es más corta con 12 caracteres en promedio; y como vemos en la visualización de abajo, la mayoría del tiempo nos reímos como las personas normales (menos de 20 caracteres) pero de vez en cuando nos reimos más de la cuenta, especialmente Tere.
 
 <p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="http://vivianamarquez.com/ChismeYPython/plots/Plot2.html" height="525" width="100%"></iframe></p>
+
+## 👀 ¿Quién ignora a quién?
+
+```
++---------+-----------------+
+|  Quién  | No. de Mensajes |
++---------+-----------------+
+| Teresa  |           9.025 |
+| Viviana |           6.960 |
++---------+-----------------+
+```
+
