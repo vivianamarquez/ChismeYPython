@@ -129,13 +129,11 @@ La red neuronal la entrené usando nuestras conversaciones de WhatsApp. Con poco
 
 <center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif' style='height:700px'></center>
 
-Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra, y espero que ustedes también, mis cielas. 
+Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra, y espero que ustedes también, mis cielas. ¡Gracias por leerme! 😘
 
 <br>
 <br>
 ------
-
-¡Gracias por leer!
 
 ¿Te gustó este artículo y quisieras hacer lo mismo con tu historial de WhatsApp? Déjamelo saber en un comentario para hacer un video tutorial, pero por ahora puedes ver todo el código en GitHub. 
 
