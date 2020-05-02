@@ -127,9 +127,9 @@ La red neuronal la entrené usando nuestra conversación de WhatsApp. Con poco e
 
 Y este es el resultado final:
 
-<center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif'></center>
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/NNGIF.gif' style='height:700px'></center>
 
-Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar "piloma" como palabra. 
+Con más entrenamiento la red neuronal seguro diría cosas más coherentes, pero por ahora yo planeo empezar a usar *piloma* como palabra. 
 
 
 ------
