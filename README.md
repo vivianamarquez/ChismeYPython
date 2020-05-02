@@ -103,4 +103,4 @@ for c in Counter(text_vivi_clean).most_common():
 
 <iframe src="https://public.tableau.com/views/TereWordCloud/Dashboard1?:showVizHome=no&:embed=true" width="1380" height="805" align="middle"></iframe>
 
-<center><img src='http://vivianamarquez.com/ChismeYPython/img/emojis.png' style="width:700px"></center>
+<center><img src='http://vivianamarquez.com/ChismeYPython/img/emojisSP.png' style="width:700px"></center>
